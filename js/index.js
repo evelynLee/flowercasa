@@ -76,7 +76,7 @@ $(document).ready(function () {
       if (link_url != '') {
         link_url = ' href="' + link_url + '"';
       }
-      var insert_html = '<li class="slide"><a' + link_url + ' style="background-image:url(/pub_images/' + link_file + ')"></a></li>';
+      var insert_html = '<li class="slide"><a' + link_url + ' style="background-image:url(./pub_images/' + link_file + ')"></a></li>';
       $('#index_banners').prepend(insert_html);
       var now_banner = $('#index_banners li:last-child');
       now_banner.fadeOut(_banner_roll_speed, function () {
