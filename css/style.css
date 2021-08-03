@@ -238,8 +238,8 @@ body {
 #header_panel .logo {
   width: 100%;
   height: 44px;
-  background: white url(../images/header_logo.png) 10px 10px no-repeat;
-  background-size: 186px 24px;
+  background: white url(../images/header_logo.png) 10px 7px no-repeat;
+  background-size: 221px 30px;
   border-bottom: 1px solid #eeeeee;
   display: block;
   text-indent: -999px;
@@ -273,9 +273,9 @@ body {
     background: transparent; }
   #header_panel .logo {
     margin-top: 13px;
-    width: 250px;
-    height: 33px;
-    background-size: 250px 33px;
+    width: 295px;
+    height: 40px;
+    background-size: 295px 40px;
     float: left;
     background-position: 0 0;
     border: 0;
@@ -285,9 +285,9 @@ body {
 @media (min-width: 1200px) {
   #header_panel .logo {
     background-image: url(../images/header_logo_d.png);
-    width: 367px;
-    height: 49px;
-    background-size: 367px 49px;
+    width: 368px;
+    height: 50px;
+    background-size: 368px 50px;
     top: 0;
     margin-top: 5px; } }
 
