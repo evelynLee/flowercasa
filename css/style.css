@@ -862,10 +862,10 @@ body {
   height: 300px;
   width: 100%; }
 #location .info .logo {
-  width: 128px;
-  height: 78px;
+  width: 100px;
+  height: 105px;
   background: url(../images/location_logo.png) 0 0 no-repeat;
-  background-size: 128px 78px;
+  background-size: 100px 105px;
   text-indent: -999px;
   overflow: hidden;
   margin: 20px auto 20px auto; }
@@ -877,7 +877,8 @@ body {
   width: 50%;
   font-size: 12px;
   letter-spacing: 1px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  border-right: 1px solid #989898; }
 #location .info .contact li a {
   text-decoration: none;
   color: #333; }

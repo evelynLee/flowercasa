@@ -85,14 +85,39 @@ body {
   background: url(../images/banner_store_link.png) 0 0 no-repeat;
   background-size: 50px 67px;
   text-indent: -999px;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: all 2s;
+  }
+
+  #banner_store_link:hover {
+  display: block;
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  width: 50px;
+  height: 67px;
+  background: url(../images/banner_store_hover.png) 0 0 no-repeat;
+  background-size: 50px 67px;
+  text-indent: -999px;
+  overflow: hidden;
+  transition: all 2s;
+  }
 @media (min-width: 1024px) {
   #banner_store_link {
     width: 155px;
     height: 187px;
     background-size: 140px 187px;
     right: 2px;
-    bottom: 50px; } }
+    bottom: 50px; } 
+  
+  #banner_store_link:hover {
+    width: 155px;
+    height: 187px;
+    background-size: 140px 187px;
+    right: 2px;
+    bottom: 50px;
+  }
+  }
 
 #index_banners {
   position: absolute;
@@ -436,7 +461,7 @@ body {
 
 /* footer */
 #footer_wrap {
-  background: linear-gradient(to bottom, #ccc 65%, transparent 0), 
+  background: linear-gradient(to bottom, #ccc 52%, transparent 0), 
               linear-gradient(to bottom, #999 100%, transparent 0); ;
   padding-top: 21px;
   padding-bottom: 17px; }
@@ -464,7 +489,17 @@ body {
 #footer_container .contact li a {
   text-decoration: none;
   color: white; }
+  #footer_container .contact li img {
+    width: 11px ;
+    vertical-align: bottom;
+  }
 @media (min-width: 1024px) {
+  #footer_wrap {
+    background: linear-gradient(to bottom, #ccc 65%, transparent 0), 
+                linear-gradient(to bottom, #999 100%, transparent 0); ;
+    padding-top: 21px;
+    padding-bottom: 17px; }
+
   #footer_container .contact li {
     display: inline-block;
     padding-right: 5px;
